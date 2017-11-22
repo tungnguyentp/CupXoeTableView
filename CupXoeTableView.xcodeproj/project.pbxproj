@@ -15,6 +15,8 @@
 		1AADC9851FBC28F400D2EBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AADC9831FBC28F400D2EBED /* LaunchScreen.storyboard */; };
 		1AADC9901FBC28F400D2EBED /* CupXoeTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADC98F1FBC28F400D2EBED /* CupXoeTableViewTests.swift */; };
 		1AADC99B1FBC28F400D2EBED /* CupXoeTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADC99A1FBC28F400D2EBED /* CupXoeTableViewUITests.swift */; };
+		1AADC9AE1FBC2F6600D2EBED /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADC9AD1FBC2F6600D2EBED /* Section.swift */; };
+		1AADC9B01FBC301E00D2EBED /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADC9AF1FBC301E00D2EBED /* ExpandableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1AADC9961FBC28F400D2EBED /* CupXoeTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupXoeTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AADC99A1FBC28F400D2EBED /* CupXoeTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupXoeTableViewUITests.swift; sourceTree = "<group>"; };
 		1AADC99C1FBC28F400D2EBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AADC9AD1FBC2F6600D2EBED /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		1AADC9AF1FBC301E00D2EBED /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1AADC9761FBC28F400D2EBED /* CupXoeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				1AADC9AC1FBC2F5C00D2EBED /* ExpandableDeaderView */,
 				1AADC9771FBC28F400D2EBED /* AppDelegate.swift */,
 				1AADC9791FBC28F400D2EBED /* ViewController.swift */,
 				1AADC97B1FBC28F400D2EBED /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				1AADC99C1FBC28F400D2EBED /* Info.plist */,
 			);
 			path = CupXoeTableViewUITests;
+			sourceTree = "<group>";
+		};
+		1AADC9AC1FBC2F5C00D2EBED /* ExpandableDeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1AADC9AD1FBC2F6600D2EBED /* Section.swift */,
+				1AADC9AF1FBC301E00D2EBED /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableDeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AADC97A1FBC28F400D2EBED /* ViewController.swift in Sources */,
+				1AADC9AE1FBC2F6600D2EBED /* Section.swift in Sources */,
+				1AADC9B01FBC301E00D2EBED /* ExpandableHeaderView.swift in Sources */,
 				1AADC9781FBC28F400D2EBED /* AppDelegate.swift in Sources */,
 				1AADC9801FBC28F400D2EBED /* CupXoeTableView.xcdatamodeld in Sources */,
 			);
